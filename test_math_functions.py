@@ -20,3 +20,11 @@ def test_calc_divide():
     output = divide_numbers(10,2)
     assert output == 5
 
+def test_calc_square():
+    output = square_number(5)
+    assert output == 25
+
+def test_calc_cube():
+    output = cube_number(5)
+    assert output == 125
+
